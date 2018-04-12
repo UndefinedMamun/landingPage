@@ -1,0 +1,25 @@
+.common{
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    box-shadow: 0 0px 5px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.15);
+}
+
+.banner{
+    height: 40%;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60%;
+}
+
+.buttons a{
+    padding-right: 30px;
+    padding-left: 30px;
+    /* margin: auto 0 20px 0; */
+}
+
+
