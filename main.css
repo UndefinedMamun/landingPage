@@ -11,13 +11,13 @@
 .common{
     display: flex;
     flex-direction: column;
-    height: 240px;
+    height: 230px;
     box-shadow: 0 0px 5px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.15);
     padding: 0;
 }
 
 .banner{
-    height: 40%;
+    height: 45%;
 }
 .banner img{
     width: 100%;
@@ -28,7 +28,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 60%;
+    height: 55%;
 }
 
 .buttons a{
@@ -36,5 +36,8 @@
     padding-left: 30px;
     /* margin: auto 0 20px 0; */
 }
-
+.buttons h5{
+    color: #4F7FB5;
+    font-weight: bold;
+}
 
